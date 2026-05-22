@@ -56,10 +56,10 @@ UmaEasyPlay_lite/
 
 | 태그 | 포함 파일 | 용도 |
 |---|---|---|
-| `main-vX.X.X` | `UmaEasyPlay.7z` | 풀버전 최초 설치 / 업데이트 |
-| `lite-vX.X.X` | `UmaEasyPlay_lite.7z` | 라이트버전 최초 설치 / 업데이트 |
-| `webview_host-vX.X.X` | `webview_host.exe` | 웹뷰 호스트 업데이트 |
-| `umaocr-vX.X.X` | `UmaOCR.7z` | OCR 엔진 업데이트 |
+| `main-X.X.X` | `UmaEasyPlay.7z` | 풀버전 최초 설치 / 업데이트 |
+| `lite-X.X.X` | `UmaEasyPlay_lite.7z` | 라이트버전 최초 설치 / 업데이트 |
+| `webview_host-X.X.X` | `webview_host.exe` | 웹뷰 호스트 업데이트 |
+| `umaocr-X.X.X` | `UmaOCR.7z` | OCR 엔진 업데이트 |
 
 ---
 
