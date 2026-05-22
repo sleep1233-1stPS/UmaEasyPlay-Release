@@ -4,26 +4,27 @@
 
 ---
 
-## 📦 배포 파일
+## 🚀 처음 설치
 
 | 파일 | 설명 |
 |---|---|
-| `webview_host.exe` | 인게임 웹뷰 호스트 (친구찾기 · 스킬검색 · 상성계산기 · 주자설정) |
-| `UmaOCR.7z` | OCR 엔진 (팬수관리) |
+| `UmaEasyPlay.7z` | 풀버전 전체 패키지 (최초 설치용) |
+| `UmaEasyPlay_lite.7z` | 라이트버전 전체 패키지 (최초 설치용) |
+
+원하는 버전의 `.7z` 파일을 다운로드 후 원하는 폴더에 압축 해제하여 사용하세요.
 
 ---
 
-## 🔧 설치 방법
+## 🔄 업데이트 (프로그램 내 자동)
 
-### webview_host.exe (풀버전 · 라이트버전 공통)
-1. 프로그램 실행 후 **친구찾기** 탭 이동
-2. 다운로드 버튼 클릭 → `bin/` 폴더 선택
-3. 자동 설치 완료
+최초 설치 이후 하위 컴포넌트는 **프로그램 실행 후 해당 탭에서 자동으로 다운로드 / 업데이트**됩니다.
 
-### UmaOCR (풀버전 · 라이트버전 공통)
-1. 프로그램 실행 후 **팬수관리** 탭 이동
-2. 다운로드 버튼 클릭 → `bin/` 폴더 선택
-3. 자동 압축 해제 및 설치 완료
+| 파일 | 업데이트 위치 | 설명 |
+|---|---|---|
+| `UmaEasyPlay.exe` | 프로그램 내 자동 알림 | 메인 프로그램 업데이트 |
+| `UmaEasyPlay_lite.exe` | 프로그램 내 자동 알림 | 라이트버전 업데이트 |
+| `webview_host.exe` | 친구찾기 탭 | 웹뷰 호스트 |
+| `UmaOCR.7z` | 팬수관리 탭 | OCR 엔진 |
 
 ---
 
@@ -34,30 +35,31 @@ UmaEasyPlay/
   ├── UmaEasyPlay.exe       ← 메인 실행 파일
   ├── UmaData/              ← 임시 데이터 (자동 생성)
   ├── bin/
-  │   ├── webview_host.exe  ← 웹뷰 호스트
-  │   └── UmaOCR/           ← OCR 엔진
+  │   ├── webview_host.exe  ← 웹뷰 호스트 (프로그램 내 설치)
+  │   └── UmaOCR/           ← OCR 엔진 (프로그램 내 설치)
   ├── config.ini            ← 설정 파일
   └── version.ini           ← 버전 정보
 
 UmaEasyPlay_lite/
-  ├── UmaEasyPlay_lite.exe
+  ├── UmaEasyPlay_lite.exe  ← 라이트버전 실행 파일
   ├── UmaData/
   ├── bin/
-  │   ├── webview_host.exe
-  │   └── UmaOCR/
-  ├── config_lite.ini
-  └── version.ini           ← 추가
+  │   ├── webview_host.exe  ← 웹뷰 호스트 (프로그램 내 설치)
+  │   └── UmaOCR/           ← OCR 엔진 (프로그램 내 설치)
+  ├── config_lite.ini       ← 설정 파일
+  └── version.ini           ← 버전 정보
 ```
 
 ---
 
-## 📋 버전 정보
+## 📋 Releases 구성
 
-Releases 탭에서 각 컴포넌트의 최신 버전을 확인하세요.
-
-- `webview_host-vX.X.X` — 웹뷰 호스트 업데이트
-- `umaocr-vX.X.X` — OCR 엔진 업데이트
-- `main-vX.X.X` — 메인 프로그램 업데이트
+| 태그 | 포함 파일 | 용도 |
+|---|---|---|
+| `main-vX.X.X` | `UmaEasyPlay.7z` | 풀버전 최초 설치 / 업데이트 |
+| `lite-vX.X.X` | `UmaEasyPlay_lite.7z` | 라이트버전 최초 설치 / 업데이트 |
+| `webview_host-vX.X.X` | `webview_host.exe` | 웹뷰 호스트 업데이트 |
+| `umaocr-vX.X.X` | `UmaOCR.7z` | OCR 엔진 업데이트 |
 
 ---
 
@@ -71,8 +73,7 @@ Releases 탭에서 각 컴포넌트의 최신 버전을 확인하세요.
 
 ## 📜 라이센스
 
-© 2025 UmaEasyPlay Team. All rights reserved.
+© 2026 UmaEasyPlay Team. All rights reserved.
 
 - 본 소프트웨어의 무단 복제 · 배포 · 상업적 이용을 금지합니다.
 - 개인 사용 목적으로만 사용 가능합니다.
-
