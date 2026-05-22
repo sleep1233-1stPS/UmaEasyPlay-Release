@@ -82,7 +82,7 @@ UmaEasyPlay_lite/          ← 경로에 한글·공백 없이 설치 권장
 
 ## 📜 라이센스
 
-© 2025 UmaEasyPlay Team. All rights reserved.
+© 2026 UmaEasyPlay Team. All rights reserved.
 
 - 본 소프트웨어의 무단 복제 · 배포 · 상업적 이용을 금지합니다.
 - 개인 사용 목적으로만 사용 가능합니다.
